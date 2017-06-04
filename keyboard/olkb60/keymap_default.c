@@ -8,11 +8,11 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
 #endif
     /* 0: Default Layer */
     KEYMAP_ANSI(
-                ESC,   1,    2,     3,    4,     5,     6,     7,    8,     9,     0,     MINS,  EQL,   BSPC,   DELETE,\
-                NUHS,  Q,    W,     E,    R,     T,     Y,     U,    I,     O,     P,     LBRC,  RBRC,  BSLS,   F12,   \
-                TAB,   A,    S,     D,    F,     G,     H,     J,    K,     L,     SCLN,  QUOT,  PGUP,  PGDOWN, HOME,  \
-                LSFT,  Z,    X,     C,    V,     B,     N,     M,    COMMA, DOT,   SLSH,  RSFT,  CAPS,  UP,     END,   \
-                LCTL, LGUI,  LALT,  TRNS, SPC,   TRNS,  ENT,   TRNS, FN0,   TRNS,  FN1,   TRNS,  LEFT,  DOWN,   RGHT   ),
+                ESC,   1,    2,     3,     4,     5,     6,     7,    8,     9,     0,     BSLS,   HOME,  END,   PGUP,  \
+                TAB,   Q,    W,     E,     R,     T,     P7,    P8,   P9,     Y,     U,    I,      O,     P,     PGDN,  \
+                LSFT,  A,    S,     D,     F,     G,     P4,    P5,   P6,     H,     J,    K,      L,     SCLN,  QUOT,  \
+                LCTL,  Z,    X,     C,     V,     B,     P1,    P2,   P3,     N,     M,    COMM,   DOT,   SLSH,  MINS,  \
+                TRNS,  LGUI, LALT,  FN1,   DEL,   BSPC,  P0,    EQL,  PDOT,   SPC,   ENT,  LEFT,   DOWN,  UP,    RGHT   ),
     /* 1: Fn Layer */
     KEYMAP_ANSI(
                 MUTE,   F1,    F2,    F3,    F4,    F5,    F6,    F7,    F8,    F9,    F10,   F11,   F12,  MYCM, WSCH,\
