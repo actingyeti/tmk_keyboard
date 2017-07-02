@@ -80,7 +80,7 @@ FADING_LED_ENABLE = yes # Enable fading backlight
 BREATHING_LED_ENABLE = yes # Enable breathing backlight
 LEDMAP_ENABLE = yes		# Enable LED mapping
 #LEDMAP_IN_EEPROM_ENABLE = yes # Read LED mapping from eeprom
-#RGB_LED_ENABLE = yes   #To enable backlighting
+RGB_LED_ENABLE = yes   #To enable backlighting
 
 # Optimize size but this may cause error "relocation truncated to fit"
 #EXTRALDFLAGS = -Wl,--relax
