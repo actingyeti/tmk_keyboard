@@ -1,5 +1,5 @@
 #include "keymap_common.h"
-#include "rgb.h"
+#include "rgblight.h"
 
 #ifdef KEYMAP_SECTION_ENABLE
 const uint8_t keymaps[KEYMAPS_COUNT][MATRIX_ROWS][MATRIX_COLS] __attribute__ ((section (".keymap.keymaps"))) = {
