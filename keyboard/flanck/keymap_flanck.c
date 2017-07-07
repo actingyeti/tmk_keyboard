@@ -3,31 +3,35 @@
 const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 KEYMAP(
-  ESC,  Q,    W,    E,    R,    T,    Y,    U,    I,    O,    P,    BSPC,
-  FN2,  A,    S,    D,    F,    G,    H,    J,    K,    L,    SCLN, QUOT,
-  LSFT, Z,    X,    C,    V,    B,    N,    M,    COMM, DOT,  SLSH, FN3,
-  LCTL, LALT, LGUI, APP,  FN1,  SPC,  SPC,  FN0,  LEFT, DOWN, UP,   RGHT
+        ESC,   1,    2,     3,     4,     5,     BSLS,  HOME, END,    6,     7,    8,      9,     0,     PGUP,  \
+        TAB,   Q,    W,     E,     R,     T,     P7,    P8,   P9,     Y,     U,    I,      O,     P,     PGDN,  \
+        LSFT,  A,    S,     D,     F,     G,     P4,    P5,   P6,     H,     J,    K,      L,     SCLN,  QUOT,  \
+        LCTL,  Z,    X,     C,     V,     B,     P1,    P2,   P3,     N,     M,    COMM,   DOT,   SLSH,  MINS,  \
+        FN15,  LGUI, LALT,  FN0,   DEL,   BSPC,  P0,    EQL,  PDOT,   SPC,   ENT,  LEFT,   DOWN,  UP,    RGHT
 ),
 
 KEYMAP(
-  GRV,  1,    2,    3,    4,    5,    6,    7,    8,    9,    0,    DELETE,
-  TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, MINS, EQL,  LBRC, RBRC, BSLS,
-  TRNS, F11,  F12,  F13,  F14,  F15,  F16,  F17,  F18,  F19,  F20,  TRNS,
-  TRNS, TRNS, TRNS, CAPS, TRNS, TRNS, TRNS, TRNS, HOME, PGDN, PGUP, END
+        MUTE,   F1,    F2,    F3,    F4,    F5,    F6,    F7,    F8,    F9,    F10,   F11,   F12,  MYCM, WSCH,\
+        VOLU,   TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  FN5,   FN2,   MPLY,  TRNS,  TRNS,  TRNS,  P7,   P8,   P9,  \
+        VOLD,   TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  FN6,   FN3,   MPRV,  TRNS,  TRNS,  TRNS,  P4,   P5,   P6,  \
+        FN8,    TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  FN7,   FN4,   MNXT,  TRNS,  TRNS,  TRNS,  P1,   P2,   P3,  \
+        FN9,    TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  FN8,   FN9,   TRNS,  TRNS,  TRNS,  TRNS,  TRNS, P0,   PDOT
 ),
 
 KEYMAP(
-  FN4,  FN5,  FN6,  FN7,  FN8,  FN9,  FN10, FN11, FN12, FN13, FN14, DELETE,
-  TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, FN23, FN24, FN25, FN26, FN27,
-  TRNS, F1,   F2,   F3,   F4,   F5,   F6,   F7,   F8,   F9,   F10,  TRNS,
-  TRNS, TRNS, TRNS, CAPS, TRNS, TRNS, TRNS, TRNS, HOME, PGDN, PGUP, END
+        TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, \
+        TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, \
+        TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, \
+        TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, \
+        TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS
 ),
 
 KEYMAP( /* Tab */
-  ESC,  CALC, WHOM, MAIL, MYCM, TRNS, TRNS, TRNS, TRNS, TRNS, PSCR, TRNS,
-  TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS,
-  TRNS, FN15, FN16, FN17, FN18, FN19, FN20, FN21, FN22, TRNS, TRNS, TRNS,
-  TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, MS_L, MS_D, MS_U, MS_R
+        TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, \
+        TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, \
+        TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, \
+        TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, \
+        TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS
 ),
 };
 
