@@ -14,7 +14,7 @@ SRC =	keymap_common.c \
 	ledmap.c \
 	backlight.c \
 	light_ws2812.c \
-	rgb.c
+	rgblight.c
 
 ifdef KEYMAP
     SRC := keymap_$(KEYMAP).c $(SRC)
