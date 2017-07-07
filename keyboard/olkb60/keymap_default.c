@@ -12,7 +12,7 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
                 TAB,   Q,    W,     E,     R,     T,     P7,    P8,   P9,     Y,     U,    I,      O,     P,     PGDN,  \
                 LSFT,  A,    S,     D,     F,     G,     P4,    P5,   P6,     H,     J,    K,      L,     SCLN,  QUOT,  \
                 LCTL,  Z,    X,     C,     V,     B,     P1,    P2,   P3,     N,     M,    COMM,   DOT,   SLSH,  MINS,  \
-                TRNS,  LGUI, LALT,  FN0,   DEL,   BSPC,  P0,    EQL,  PDOT,   SPC,   ENT,  LEFT,   DOWN,  UP,    RGHT   ),
+                FN4,   LGUI, LALT,  FN0,   DEL,   BSPC,  P0,    EQL,  PDOT,   SPC,   ENT,  LEFT,   DOWN,  UP,    RGHT   ),
     /* 1: Fn Layer */
     KEYMAP_ANSI(
                 MUTE,   F1,    F2,    F3,    F4,    F5,    F6,    F7,    F8,    F9,    F10,   F11,   F12,  MYCM, WSCH,\
@@ -65,7 +65,7 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
 };
 
 enum function_id {
-    AF_RGB_TOGGLE = 0,
+    AF_RGB_TOGGLE,
     AF_RGB_DECREASE,
     AF_RGB_INCREASE,
     AF_RGB_STEP
