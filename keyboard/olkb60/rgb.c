@@ -2,7 +2,7 @@
 #include <avr/eeprom.h>
 #include "softpwm_led.h"
 #include "backlight.h"
-#include "rgb.h"
+#include "rgblight.h"
 #include "light_ws2812.h"
 #include "debug.h"
 
